@@ -13,14 +13,42 @@ header {
     background-color: rgb(157, 89, 0);
 }
 
+#pesquisa {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 400px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+    position: relative;
+    top: 30px;
 }
 
 .container {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: start;
+    margin-left: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.mensagem_bonita {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.mensagem {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 a {
@@ -31,3 +59,24 @@ a {
 ul {
     list-style: none;
 }
+
+.receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#pao_de_queijo, #broa_fuba, #pamonha {
+    background-color: rgb(228, 185, 58);
+    margin: 30px;
+}
+
+p {
+    margin: 15px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+h3 {
+    font-size: 30px;
+}
+
