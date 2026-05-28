@@ -30,6 +30,7 @@ h1 {
     font-size: 70px;
     position: relative;
     top: 30px;
+    color: gold;
 }
 
 .container {
@@ -68,6 +69,8 @@ ul {
 #pao_de_queijo, #broa_fuba, #pamonha {
     background-color: rgb(228, 185, 58);
     margin: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
 }
 
 p {
@@ -76,7 +79,82 @@ p {
     font-family: Arial;
 }
 
-h3 {
-    font-size: 30px;
+
+
+#botao_pao_de_queijo, #botao_pamonha, #botao_broa_fuba {
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
 }
+
+#botao_pao_de_queijo:hover, #botao_pamonha:hover, #botao_broa_fuba:hover {
+    background-color: #3730a3;
+
+    transform: scale(1.05);
+}
+
+#botao_broa_fuba {
+    position: relative;
+    top: 26px;
+    
+}
+
+.receitas h3 {
+    margin: 25px;
+    font-size: 35px;
+    
+}
+
+.mais_famosas {
+    background-color: rgb(228, 185, 58);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+#brigadeirao, #macarronese, #pastel_fuba {
+    background-color: rgb(247, 247, 184);
+    border-radius: 30px;
+}
+
+#botao_brigadeirao, #botao_macarronese, #botao_pastel_fuba {
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    
+}
+
+#botao_brigadeirao:hover, #botao_macarronese:hover, #botao_pastel_fuba:hover {
+    background-color: #3730a3;
+
+    transform: scale(1.05);
+}
+
+
+
+
 
