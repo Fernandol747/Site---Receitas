@@ -47,6 +47,7 @@ h1 {
 .mensagem_bonita {
     font-family: Arial;
     font-size: 30px;
+    color: brown;
 }
 
 .mensagem {
@@ -130,6 +131,7 @@ p {
 h2 {
     font-size: 50px;
     margin-top: 90px;
+    color: brown;
 }
 
 #brigadeirao, #macarronese, #pastel_fuba {
