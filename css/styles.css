@@ -97,8 +97,10 @@ p {
 
 #botao_pao_de_queijo:hover, #botao_pamonha:hover, #botao_broa_fuba:hover {
     background-color: #3730a3;
-
+    
     transform: scale(1.05);
+
+    color: white;
 }
 
 #botao_broa_fuba {
@@ -152,8 +154,22 @@ h2 {
     background-color: #3730a3;
 
     transform: scale(1.05);
+
+    color: white;
 }
 
+#botao_brigadeirao {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+ #botao_pastel_fuba {
+    margin-top: 57px;
+}
+
+#botao_macarronese {
+    margin-top: 70px;
+}
 
 
 
