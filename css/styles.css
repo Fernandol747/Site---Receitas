@@ -24,6 +24,8 @@ input {
     width: 400px;
     height: 65px;
     margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 h1 {
@@ -126,7 +128,7 @@ p {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 50px;
     margin-top: 90px;
 }
 
@@ -171,6 +173,28 @@ h2 {
     margin-top: 70px;
 }
 
+.mais_famosas h3 {
+    font-size: 35px;
+    margin: 25px;
+}
+
+.mais_famosas img {
+    border-radius: 15px;
+}
+
+.receitas img {
+    border-radius: 15px;
+}
+
+.receitas p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mais_famosas p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
 
 
