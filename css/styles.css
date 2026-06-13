@@ -198,5 +198,13 @@ h2 {
     margin-right: 70px;
 }
 
-
+footer {
+    background-color:  rgb(157, 89, 0);
+    margin-top: 10%; 
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-family: Arial;
+}
 
