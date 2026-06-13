@@ -207,3 +207,7 @@ footer {
     color: white;
     font-family: Arial;
 }
+
+@media screen and (max-width: 768px){
+    
+}
